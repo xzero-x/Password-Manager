@@ -6,7 +6,6 @@ This project is a secure password manager that allows users to store usernames, 
 
 - **Password Encryption:** Utilizes Argon2 for hashing passwords, ensuring strong security.
 - **Azure SQL Integration:** Connects to an Azure SQL Database for storing encrypted user credentials.
-- **Organized Structure:** Modular design with separate files for main logic, encryption, and database operations.
 
 ## Files Overview
 
