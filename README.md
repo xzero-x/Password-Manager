@@ -12,12 +12,6 @@ This project is a secure password manager that allows users to store usernames, 
 
 ### `main.py`
 
-This is the main entry point of the application. It handles user input, interacts with the database, and ensures the overall workflow of storing and retrieving passwords.
+This is the main entry point of the application. It generates password, handles user input, interacts with the database, and ensures the overall workflow of storing and retrieving passwords.
 
-### `encryption.py`
 
-This file contains the encryption logic used in the application. It includes functions for hashing passwords with Argon2 and verifying them during authentication.
-
-### `database.py`
-
-This file manages all database operations, including connecting to the Azure SQL database, inserting new credentials, and retrieving existing ones. It handles the SQL queries and ensures secure interaction with the database.
